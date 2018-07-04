@@ -27,7 +27,7 @@ http://localhost:8000
 ## Some explanations
 
 1. Browser fingerprint was implemented to separate user's documents without any Auth system or JWT - but it can cause some lags on front-end loading - it is just a demo
-2. File uploading is validating on server-side
+2. File uploading is validated on server-side
 3. Possible attacks blocked: 
     - blacklisted file formats, 
     - double-format attack, 
