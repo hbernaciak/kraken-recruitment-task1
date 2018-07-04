@@ -18,7 +18,7 @@ class CreateDocumentsTable extends Migration
             $table->string('name');
             $table->string('filename');
             $table->string('extension');
-            $table->string('user_hash')->unique();
+            $table->string('user_hash');
             $table->timestamps();
         });
     }
