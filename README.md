@@ -23,6 +23,7 @@ or run:
 edit .env and then:
 
 ```bash
+    php artisan migrate
     php artisan serve --host=localhost --port=8000
 ```
 
