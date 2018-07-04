@@ -9,13 +9,22 @@
 
 
 ## Install
-
-    cp .env_example .env 
+```bash
+    cp .env.example .env 
     composer install
     php artisan key:generate
     npm install
     npm run dev
+```    
+or run:
+```bash
+    sh deploy.sh
+```
+edit .env and then:
+
+```bash
     php artisan serve --host=localhost --port=8000
+```
 
 ## Usage
 
